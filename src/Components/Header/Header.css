@@ -1,0 +1,18 @@
+.logo{
+    width: 20%;
+}
+.header-area{
+    margin-bottom: 30px;
+}
+.nav-btn a{
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    margin: 20px
+}
+.nav-btn{
+    margin-top: 20px;
+}
+.nav-btn button{
+    margin: 10px;
+}

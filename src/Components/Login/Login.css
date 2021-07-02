@@ -1,0 +1,29 @@
+
+.google-btn{
+    border: 1px solid lightgrey;
+    width: 25%;
+    padding: 10px 15px 0 15px;
+    border-radius: 30px;
+    margin: 8% 0 10px 37%;
+}
+.login-area{
+    text-align: center;
+}
+.login-box{
+    text-align: center;
+    align-items: center;
+    border: 1px solid lightgrey;
+    padding: 8% 0 8% 0;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+.login-text{
+    margin: 10px 0 10px 37%;
+}
+.google-icon{
+    margin-bottom: 10px;
+}
+.login-logo{
+    width: 20%;
+}

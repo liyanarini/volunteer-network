@@ -1,0 +1,11 @@
+.search-input{
+border: none;
+box-shadow: 2px 5px 10px lightgrey;
+width: 20%;
+height: 35px;
+margin: 10px 0 20px 0;
+}
+.header-line{
+    margin: 20px;
+    font-weight: 700;
+}

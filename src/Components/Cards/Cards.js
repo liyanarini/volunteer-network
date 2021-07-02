@@ -1,18 +1,19 @@
 import React from 'react';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-import img from '../../images/foodCharity.png'
+//import img from '../../images/foodCharity.png'
 import './Cards.css'
+import {Link} from "react-router-dom";
 
 const Cards = ({task}) => {
-    console.log(task)
     return (
-        <div>
-            <div class="card" id="card-area">
-              <img src={img} alt="" />
-                <div class="card-body">
-                    <h6 class="card-text">{task.name}</h6>
+        <div className="col-md-6 col-lg-3">
+          <Link to={`/register/${task.key}`}>
+                <div id="card-area">
+                     <img src={require(`../../images/${task.img}`).default} alt="" />
+                     <h5 class="card-text">{task.name}</h5>
                 </div>
-            </div>
+          </Link>
+            
         </div>
     );
 };

@@ -1,0 +1,31 @@
+.reg-form{
+    border: 1px solid lightgrey;
+    width: 50%;
+    border-radius: 3px;
+    margin-top: 40px;
+    padding: 5%;
+    margin-left: 25%;
+}
+.reg-header{
+    margin-bottom: 10%;
+}
+.reg-page{
+    text-align: center;
+}
+input{
+    border: none;
+    width: 100%;
+    margin-bottom: 10%;
+    border-bottom: 2px solid lightgrey;
+}
+.submit-btn{
+    border: none;
+    background-color: rgb(132, 132, 255);
+    width: 100%;
+    margin: 10px 0;
+    color: white;
+    padding: 10px;
+}
+.error{
+    color: red;
+}

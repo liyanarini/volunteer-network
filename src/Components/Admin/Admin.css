@@ -1,0 +1,35 @@
+.logo-img{
+    width: 100%;
+    margin-top: 30px;
+}
+.blue-text{
+    color: #6492ff;
+    font-weight: 400;
+    margin-top: 40px;
+}
+.bold-text{
+    font-weight: 600;
+    margin-top: 30px;
+}
+.span-title{
+    color: gray;
+}
+.title-row{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-between;
+    margin-left: 2%;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 2% 4%;
+    margin-bottom: 3%;
+}
+.right-side{
+    padding: 20px;
+}
+.user-logo{
+    width: 10%;
+}
+.plus-icon{
+    width: 10%;
+}

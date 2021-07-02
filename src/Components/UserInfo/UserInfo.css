@@ -1,0 +1,13 @@
+
+.user-row{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+.trash-img{
+background-color: red;
+    width: 4%;
+
+}
